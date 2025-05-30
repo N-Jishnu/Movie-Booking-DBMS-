@@ -1,25 +1,69 @@
+# 🎬 Movie Seat Reservation System
 
-1.XAMPP
+A web-based movie seat reservation system built using PHP, MySQL, HTML, CSS, and JavaScript. This project allows users to view available movies, select showtimes, and reserve seats in a theater. It's designed as a mini-project for Database Management Systems (DBMS) coursework.
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+## 📁 Project Structure
 
-3"Movie_Seat_Reservation_System"
+```
+├── admin/
+├── assets/
+│   └── img/
+├── css/
+├── js/
+├── database/
+│   └── theater_db.sql
+├── home.php
+├── index.php
+├── manage_reserve.php
+├── movie_carousel.php
+├── movies.php
+├── reserve.php
+├── upcoming.php
+├── readme.txt
+```
 
-4. Download the zip file/ download winrar
+## 🚀 Features
 
-5. Extract the file and copy "Movie_Seat_Reservation_System" folder
+* **Movie Listings**: Browse current and upcoming movies.
+* **Seat Selection**: Interactive seat selection for available showtimes.
+* **Reservation Management**: Admin panel to manage reservations.
+* **Responsive Design**: User-friendly interface compatible with various devices.
 
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+## 🛠️ Installation & Setup
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+1. **Install XAMPP**: Ensure you have XAMPP installed on your system.
+2. **Download the Project**:
 
-8. Create a database with name theater_db
+   * Clone the repository:
 
-6. Import theater_db.sql file(given inside the zip package in SQL file folder)
+     ```bash
+     git clone https://github.com/N-Jishnu/Movie-Booking-DBMS-.git
+     ```
+   * Or download the ZIP file and extract it.
+3. **Move Project to XAMPP Directory**:
 
-7.Run the script http://localhost/Movie_Seat_Reservation_System
+   * Copy the extracted folder to the XAMPP `htdocs` directory:
 
-**LOGIN DETAILS** 
+     ```
+     C:\xampp\htdocs\Movie-Booking-DBMS-
+     ```
+4. **Set Up the Database**:
+
+   * Open [phpMyAdmin](http://localhost/phpmyadmin).
+   * Create a new database named `theater_db`.
+   * Import the `theater_db.sql` file located in the `database/` directory.
+5. **Run the Application**:
+
+   * Start Apache and MySQL from the XAMPP control panel.
+   * Navigate to [http://localhost/Movie-Booking-DBMS-/](http://localhost/Movie-Booking-DBMS-/) in your web browser.
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+
+** ADMIN LOGIN DETAILS** 
 
 Admin
 user: admin
